@@ -91,4 +91,4 @@ def dump_code():
     # bytecode.append("F3") # RETURN
     bytecode.append("00") # STOP
 
-    print(''.join(bytecode))
+    return ''.join(bytecode)
